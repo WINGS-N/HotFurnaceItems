@@ -1,7 +1,7 @@
-package io.WINGS.calc;
+package WINGS7.calc;
 
 public interface Chance {
-	public static Boolean go(double chance) {
+	static Boolean go(double chance) {
 	    return Math.random() <= chance;
 	}
 }

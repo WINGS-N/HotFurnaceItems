@@ -1,8 +1,0 @@
-name: HotFurnaceItems
-version: 1.0
-main: io.WINGS.HotFurnaceItems.Main
-description: HotFurnaceItems PoweredByWings
-load: POSTWORLD
-author: WINGS7
-website: null
-database: false

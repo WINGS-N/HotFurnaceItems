@@ -1,4 +1,9 @@
-settings/
-bin/
-.classpath
-.project
+.idea
+target
+.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+HotFurnaceItems.iml
