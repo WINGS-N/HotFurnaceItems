@@ -1,6 +1,9 @@
 # HotFurnaceItems
 
-This plugin adds a chance that when taking an item out of the furnace, it will burn you. You will receive a certain amount of damage and effects specified in the settings.
-In order not to get burned, you need to hold leather in your hand.
+**This plugin adds the probability that when you take an item from the furnace, it will burn you. You will receive a certain amount of damage and effects specified in the config.yml.
 
-PS, 23.01.2022, I will continue developing this plugin a bit later. (probably)
+In order not to get burned, you need to hold leather in your right hand, it acts as a "potholder". There is a chance that the "potholder" will burn, this can also be configured in the congig.yml.
+
+You can also change the sound of damage and the burning of the potholders.
+
+**All types of furnaces are supported.
