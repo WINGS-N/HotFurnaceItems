@@ -39,7 +39,8 @@ public class SelfUpdateFromBackupServer {
         try {
             Method getFile = JavaPlugin.class.getDeclaredMethod("getFile");
             getFile.setAccessible(true);
-            File dest = new File("plugins/" + UpdateData.UpdatePlugin + UpdateData.ext);
+            String plugin_jar = Objects.requireNonNull(Bukkit.getPluginManager().getPlugin(UpdateData.UpdatePlugin)).getClass().getProtectionDomain().getCodeSource().getLocation().getFile();
+            File dest = new File(plugin_jar);
 
             //Connect
             URL url =
@@ -49,7 +50,7 @@ public class SelfUpdateFromBackupServer {
 
             // Creating con
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
-            con.setRequestProperty("User-Agent", "WINGS07/HotFurnaceItems-SelfUpdater");
+            con.setRequestProperty("User-Agent", String.format("WINGS7N/%s-SelfUpdater", UpdateData.UpdatePlugin));
 
             // Get input stream
             try (InputStream input = con.getInputStream()) {

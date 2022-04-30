@@ -47,7 +47,7 @@ public class DownloadWinUpdater {
 
             // Creating con
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
-            con.setRequestProperty("User-Agent", "WINGS7N/HotFurnaceItems-SelfUpdater-Windows");
+            con.setRequestProperty("User-Agent", String.format("WINGS7N/%s-SelfUpdater-Windows", UpdateData.UpdatePlugin));
 
             // Get input stream
             try (InputStream input = con.getInputStream()) {

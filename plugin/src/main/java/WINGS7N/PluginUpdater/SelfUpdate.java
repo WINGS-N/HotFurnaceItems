@@ -37,7 +37,8 @@ public class SelfUpdate {
         try {
             Method getFile = JavaPlugin.class.getDeclaredMethod("getFile");
             getFile.setAccessible(true);
-            File dest = new File("plugins/" + UpdateData.UpdatePlugin + UpdateData.ext);
+            String plugin_jar = Objects.requireNonNull(Bukkit.getPluginManager().getPlugin(UpdateData.UpdatePlugin)).getClass().getProtectionDomain().getCodeSource().getLocation().getFile();
+            File dest = new File(plugin_jar);
 
             //Connect
             URL url =
