@@ -1,0 +1,8 @@
+name: ${project.parent.artifactId}
+version: '${project.parent.version}'
+main: ${project.parent.groupId}.${project.parent.artifactId}.Main
+description: This Minecraft plugin adds the probability that when you take an item from the furnace, it will burn you.
+load: POSTWORLD
+author: ${project.parent.groupId}
+website: https://github.com/${project.parent.groupId}/${project.parent.artifactId}/releases
+database: false

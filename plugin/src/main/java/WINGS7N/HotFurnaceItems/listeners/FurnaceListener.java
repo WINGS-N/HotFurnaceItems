@@ -1,9 +1,9 @@
-package WINGS7.HotFurnaceItems.listeners;
+package WINGS7N.HotFurnaceItems.listeners;
 
-import WINGS7.HotFurnaceItems.Damage;
-import WINGS7.HotFurnaceItems.storage.SS;
-import WINGS7.calc.Chance;
-import WINGS7.calc.ChanceFormat;
+import WINGS7N.HotFurnaceItems.Damage;
+import WINGS7N.HotFurnaceItems.storage.SS;
+import WINGS7N.providers.math.Chance;
+import WINGS7N.providers.math.ChanceFormat;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;

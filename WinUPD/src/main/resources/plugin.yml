@@ -1,0 +1,9 @@
+name: ${project.parent.artifactId}_WinUPD
+version: '${project.parent.version}'
+author: ${project.parent.groupId}
+website: https://github.com/${project.parent.groupId}/${project.parent.artifactId}
+description: 'Updater for ${project.parent.name} on Windows.'
+main: ${project.parent.groupId}.${project.parent.artifactId}.WinUPD.Main
+api-version: 1.13
+load: STARTUP
+loadbefore: [ ${project.parent.artifactId} ]

@@ -1,8 +1,0 @@
-name: HotFurnaceItems
-version: ${project.version}
-main: WINGS7.HotFurnaceItems.Main
-description: HotFurnaceItems by WINGS7
-load: POSTWORLD
-author: WINGS7
-website: https://github.com/WINGS07/HotFurnaceItems/releases
-database: false

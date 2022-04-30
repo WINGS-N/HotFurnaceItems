@@ -1,6 +1,6 @@
-package WINGS7.HotFurnaceItems;
+package WINGS7N.HotFurnaceItems;
 
-import WINGS7.HotFurnaceItems.storage.SS;
+import WINGS7N.HotFurnaceItems.storage.SS;
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
 import org.bukkit.configuration.file.FileConfiguration;

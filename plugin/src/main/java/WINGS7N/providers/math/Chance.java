@@ -1,4 +1,4 @@
-package WINGS7.calc;
+package WINGS7N.providers.math;
 
 public interface Chance {
 	static Boolean go(double chance) {
